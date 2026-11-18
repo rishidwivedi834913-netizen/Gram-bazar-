@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hamara Shahdol</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7f2;
+  color: #333;
+}
+
+header {
+  background: #087443;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+nav {
+  background: #064d30;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 12px;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(120deg, #087443, #65b96c);
+  color: white;
+  text-align: center;
+  padding: 75px 20px;
+}
+
+.hero h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.container {
+  padding: 30px 6%;
+}
+
+h2 {
+  color: #087443;
+  margin-bottom: 15px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #ccc;
+  text-align: center;
+}
+
+.card h3 {
+  color: #087443;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #064d30;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🌿 हमारा शहडोल 🌿</h1>
+<p>हमारे शहर की पहचान, हमारी शान</p>
+</header>
+
+<nav>
+<a href="#home">होम</a>
+<a href="#about">परिचय</a>
+<a href="#places">पर्यटन</a>
+<a href="#culture">संस्कृति</a>
+</nav>
+
+<section class="hero" id="home">
+<h2>आपका स्वागत है शहडोल में</h2>
+<p>मध्य प्रदेश का सुंदर और प्राकृतिक सुंदरता से भरपूर क्षेत्र</p>
+</section>
+
+<section class="container" id="about">
+<h2>शहडोल के बारे में</h2>
+<p>
+शहडोल मध्य प्रदेश का एक जिला है।
+यह अपनी प्राकृतिक सुंदरता, जंगलों,
+संस्कृति और ऐतिहासिक महत्व के लिए जाना जाता है।
+यहाँ के लोग अपनी परंपराओं और संस्कृति से जुड़े हुए हैं।
+</p>
+</section>
+
+<section class="container" id="places">
+<h2>प्रमुख पर्यटन स्थल</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🏞️ विराटेश्वर मंदिर</h3>
+<p>शहडोल जिले के सोहागपुर में स्थित प्रसिद्ध ऐतिहासिक मंदिर।</p>
+</div>
+
+<div class="card">
+<h3>🌳 जंगल और प्रकृति</h3>
+<p>यह क्षेत्र हरियाली और प्राकृतिक सुंदरता के लिए प्रसिद्ध है।</p>
+</div>
+
+<div class="card">
+<h3>🏛️ ऐतिहासिक स्थल</h3>
+<p>शहडोल क्षेत्र में कई ऐतिहासिक और धार्मिक स्थल हैं।</p>
+</div>
+
+</div>
+</section>
+
+<section class="container" id="culture">
+<h2>हमारी संस्कृति</h2>
+<div class="cards">
+
+<div class="card">
+<h3>🎭 लोक कला</h3>
+<p>स्थानीय लोकगीत, नृत्य और पारंपरिक कलाएँ।</p>
+</div>
+
+<div class="card">
+<h3>🍲 खान-पान</h3>
+<p>क्षेत्र के पारंपरिक भोजन और स्थानीय व्यंजन।</p>
+</div>
+
+<div class="card">
+<h3>🎉 त्योहार</h3>
+<p>स्थानीय त्योहार और पारंपरिक उत्सव।</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Hamara Shahdol | हमारा शहडोल</p>
+<p>Made with ❤️</p>
+</footer>
+
+</body>
+</html>
